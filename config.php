@@ -6,7 +6,7 @@
 		<p><?php echo __('Number to start incrementing.', 'cf-increment-capture'); ?></p>
 		{{else}}
 		<p><?php echo __('Incremenets started at {{start}}. to reset, delete this and insert a new increment processor.', 'cf-increment-capture'); ?></p>
-		<input class="block-input field-config required" type="hidden" name="{{_name}}[start]" value="{{start}}">
+		<input type="hidden" name="{{_name}}[start]" value="{{start}}">
 		{{/unless}}
 	</div>
 </div>
